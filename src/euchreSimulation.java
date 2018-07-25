@@ -791,7 +791,7 @@ public class euchreSimulation {
     }
     
     public static class card {
-    //This is the main class for the data structure 
+    //This is the main class for the data structure. It holds a card (suit and integer value)  
 
         String suit;
         int val;
