@@ -21,6 +21,7 @@ public class euchreSimulation {
 
     /**
      */
+    
     public static ArrayList<card> allCards = new ArrayList();
     public static ArrayList<card> A = new ArrayList();
     public static ArrayList<card> B = new ArrayList();
@@ -40,6 +41,7 @@ public class euchreSimulation {
         *the euchre games played. The number of games played can be varied by 
         *changing the number of times this function loops through proccess play
         */
+        ArrayList<card> c = new ArrayList();
         for (int i = 0; i < 1000; i++) {
             proccessPlay();
             /*if the data is compromised it is unlikely the dealer who have picked
